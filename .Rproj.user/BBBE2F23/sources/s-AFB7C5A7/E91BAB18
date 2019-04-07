@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554606903371.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2275754135",
+    "id" : "E91BAB18",
+    "lastKnownWriteTime" : 1554630016,
+    "last_content_update" : 1554630016248,
+    "path" : "C:/Users/User/Dropbox/GitHub/bioinformatics_intro_workshop/intro_to_Unix.Rmd",
+    "project_path" : "intro_to_Unix.Rmd",
+    "properties" : {
+        "cursorPosition" : "68,0",
+        "scrollLine" : "57",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

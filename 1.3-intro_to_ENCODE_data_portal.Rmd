@@ -1,0 +1,48 @@
+---
+title: "ENCODE数据库的介绍和使用"
+author: "LiyangCai"
+date: "2019年4月7日"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 学习目标
+1. 了解ENCODE项目及其产生的数据
+2. 学会在ENCODE数据库中检索并下载数据
+3. 可视化数据
+4. 批量下载数据
+
+## ENCOD项目简介
+1. Catalog all funcitonal elements in the human and select model organism genomes
+2. Develop freely available resource for research comunity to enhance understanding of:
+  - regulation of gene expression
+  - genetic basis of disease
+
+
+## ENCODE data assay
+```{r, out.width = "800px"}
+knitr::include_graphics("figures/ENCODE_data_type.png")
+```
+
+
+## ENCODE DCC and data portal
+```{r, out.width = "800px"}
+knitr::include_graphics("figures/ENCODE_DCC_and_data_portal.png")
+```
+
+## 在ENCODE data portal中检索并下载数据
+```{r, out.width = "800px"}
+knitr::include_graphics("figures/ENCODE_data_matrix.png")
+```
+
+
+## 使用ENCODE内置的浏览器查看数据
+```{r, out.width = "800px"}
+knitr::include_graphics("figures/ENCODE_internal_browser.png")
+```
+
+
+## THANK YOU

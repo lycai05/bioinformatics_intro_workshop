@@ -1,0 +1,24 @@
+---
+title: "模块一：ChIP-Seq数据处理"
+author: "LiyangCai"
+date: "2019骞<b4>4鏈<88>7鏃<a5>"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## 学习目标和时间安排
+| 学习模块                                          | 时间安排 | 难度   |   |   |
+|---------------------------------------------------|----------|--------|---|---|
+| 1. 熟悉Unix系统的常用命令                         | 2h       | Medium |   |   |
+| 2. 了解二代测序数据的常用格式                     | 2h       | Medium |   |   |
+| 3. 学习ChIP-Seq数据的处理流程                     | 4h       | Medium |   |   |
+| 4. 使用UCSC Genome Brower和IGV查看测序数据        | 2h       | Easy   |   |   |
+| 5. 学会检索并下载ENCODE, GTEX等大型数据库中的数据 | 2h       | Easy   |   |   |
+
+

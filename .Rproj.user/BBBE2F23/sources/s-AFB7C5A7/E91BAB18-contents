@@ -1,0 +1,83 @@
+---
+title: "intro_to_Unix"
+author: "LiyangCai"
+date: "2019年4月7日"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Unix系统介绍
+
+## Unix的优势
+1. Command line system
+2. Open source
+3. High performance computing
+
+
+## 常用Unix命令
+```{r, out.width = "800px"}
+knitr::include_graphics("figures/linux_cheat_sheet.pdf")
+```
+
+
+## 文件和目录
+```
+1. FIle paths
+  - /home/lycai/data/myFile.txt
+  - . 当前目录
+  - .. 上一级目录
+  - ~ 用户的主目录
+2. 查看文件和目录
+  - ls
+  - ls -a 包括隐藏的文件和目录
+3. 创建文件夹
+  - mkdir FOLDER_NAME
+4. 进入某个文件夹
+  - cd FOLDER_NAME
+  - pwd 当前文件夹的绝对路径
+5. 删除文件夹
+  - rm -r dir/
+```
+
+
+## 操作文件
+```
+1. 查看文件
+  - cat 打印所有内容
+  - less 打印当前屏幕的内容
+  - head -n 查看前n行
+  - tail -n 查看后n行
+2. 复制
+  - cp 
+3. 移动
+  - mv file_a folder_a/
+4. 重命名
+  - mv file_a file_b
+5. 删除
+  - rm a_file
+```
+
+
+## 通配符（Wildcards）
+```
+* 任何字符
+```
+
+
+## 重定向
+```
+>
+```
+
+## 管道（Pipes）
+```
+程序a | 程序b
+grep chr1 some_file.txt | sort | uniq | wc -l
+```
+
+## THANK YOU
+参考资料：
+http://www.bioinformatics.babraham.ac.uk/training/Introduction%20to%20unix.pdf

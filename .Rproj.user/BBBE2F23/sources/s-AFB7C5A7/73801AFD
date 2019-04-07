@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554625174556.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "73801AFD",
+    "lastKnownWriteTime" : 1554630144,
+    "last_content_update" : 1554630144049,
+    "path" : "C:/Users/User/Dropbox/GitHub/bioinformatics_intro_workshop/key_concepts_in_genomic_data_analysis.Rmd",
+    "project_path" : "key_concepts_in_genomic_data_analysis.Rmd",
+    "properties" : {
+        "cursorPosition" : "14,39",
+        "scrollLine" : "6",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,33 @@
+---
+title: "key_concepts_in_genomic_data_analysis"
+author: "LiyangCai"
+date: "2019年4月7日"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sanger sequencing and Illumina sequencing data
+
+
+## ChIP-Seq library prepartion protocol
+
+
+## Minimum ChIP-Seq data processing pipeline
+```{r, out.width = "800px", echo = F}
+knitr::include_graphics("figures/minimum_chipseq_pipeline.svg")
+```
+
+## 常用的数据类型
+| Steps               | 数据格式         | 增 | 删          | 改          | 查              |
+|---------------------|------------------|----|-------------|-------------|-----------------|
+| QC                  | fastq            | NA | Trimommatic | Trimommatic | Unix            |
+| Mapping             | bam / sam        | NA | samtools    | samtools    | samtools / Unix |
+| Peak calling        | narrowPeak bed   | NA | Unix        | Unix        | Unix            |
+| Coverage generation | bedgraph, bigwig | NA | deepTools   | deepTools   | deepTools       |
+
+
+## 操作常用的数据类型（演示）
+
