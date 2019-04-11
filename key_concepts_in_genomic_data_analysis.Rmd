@@ -1,0 +1,34 @@
+---
+title: "Key data types in genomic data analysis"
+author: "LiyangCai"
+date: "2019-04-07"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sanger sequencing and Illumina sequencing data
+
+
+## ChIP-Seq library prepartion protocol
+
+
+## Minimum ChIP-Seq data processing pipeline
+```{r, out.width = "800px", echo = F}
+knitr::include_graphics("figures/minimum_chipseq_pipeline.svg")
+```
+
+## 常用的数据类型
+| Steps               | 数据格式         | 软件        |
+|---------------------|------------------|-------------|
+| QC                  | fastq            | Trimommatic |
+| Mapping             | bam / sam        | samtools    |
+| Peak calling        | narrowPeak bed   | Linux shell |
+| Coverage generation | bedgraph, bigwig | deepTools   |
+
+
+## 操作常用的数据类型（演示）
+1. 查看fastq，sam，narrowPeak，bed，bedgraph等文件并了解它们的格式
+2. 使用相应软件对上述文件进行过滤操作
