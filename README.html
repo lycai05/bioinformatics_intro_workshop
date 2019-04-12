@@ -309,15 +309,19 @@ $(document).ready(function () {
 </div>
 
 
-<div id="materials-for-workshop-series-introduction-to-genomic-data-analysis" class="section level3">
-<h3>Materials for workshop series: Introduction to genomic data analysis</h3>
+<div class="section level3">
+<h3>高通量测序数据分析课程内容(一)</h3>
 </div>
-<div id="module-0-biological-databases" class="section level3">
-<h3>Module 0: Biological databases</h3>
+<div id="workshop-series-introduction-to-genomic-data-analysis" class="section level3">
+<h3>Workshop series: Introduction to genomic data analysis</h3>
+<p><br /></p>
+</div>
+<div id="module-1-biological-databases" class="section level3">
+<h3>Module 1: Biological databases</h3>
 <table>
 <thead>
 <tr class="header">
-<th>学习内容</th>
+<th>学习目标</th>
 <th>时间安排</th>
 <th>难度</th>
 </tr>
@@ -335,12 +339,15 @@ $(document).ready(function () {
 </tr>
 </tbody>
 </table>
-<div class="section level5">
-<h5>具体内容</h5>
+<div class="section level4">
+<h4>具体内容:</h4>
+<div id=".-the-encyclopedia-of-dna-elements-encode-" class="section level5">
+<h5>一. The Encyclopedia of DNA Elements (ENCODE) 相关数据库</h5>
 <ol style="list-style-type: decimal">
 <li>ENCODE</li>
 </ol>
 <ul>
+<li>www.encodeproject.org</li>
 <li>Comprehesive functional elements in human and mouse genome</li>
 </ul>
 <ol start="2" style="list-style-type: decimal">
@@ -366,13 +373,54 @@ $(document).ready(function () {
 <li>Functional annotations of the noncoding variants on haplotypes blocks</li>
 </ul>
 </div>
+<div id=".-the-cancer-genome-atlas-tcga-" class="section level5">
+<h5>二. The Cancer Genome Atlas (TCGA) 相关数据库</h5>
+<ol style="list-style-type: decimal">
+<li>GDC Data portal (by National cancer institute)</li>
+</ol>
+<ul>
+<li><a href="https://portal.gdc.cancer.gov/projects" class="uri">https://portal.gdc.cancer.gov/projects</a></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>cbioportal</li>
+</ol>
+<ul>
+<li><a href="https://www.cbioportal.org/tutorials" class="uri">https://www.cbioportal.org/tutorials</a></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Firebrowse (by Broad Instite)</li>
+</ol>
+<ul>
+<li><a href="http://firebrowse.org/" class="uri">http://firebrowse.org/</a></li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Xenabrowser (by UCSC)</li>
+</ol>
+<ul>
+<li><a href="https://xenabrowser.net/heatmap/" class="uri">https://xenabrowser.net/heatmap/</a></li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li>Wanderer (Methylation and expression)</li>
+</ol>
+<ul>
+<li><a href="http://maplab.imppc.org/wanderer/" class="uri">http://maplab.imppc.org/wanderer/</a></li>
+</ul>
+<ol start="6" style="list-style-type: decimal">
+<li>MethHC (Methylation and expression)</li>
+</ol>
+<ul>
+<li><a href="http://methhc.mbc.nctu.edu.tw/php/help.php" class="uri">http://methhc.mbc.nctu.edu.tw/php/help.php</a></li>
+</ul>
+<p><br /></p>
 </div>
-<div id="module-1-introduction-to-unix-system" class="section level3">
-<h3>Module 1: Introduction to Unix system</h3>
+</div>
+</div>
+<div id="module-2-linux-shell" class="section level3">
+<h3>Module 2: Linux shell</h3>
 <table>
 <thead>
 <tr class="header">
-<th>学习内容</th>
+<th>学习目标</th>
 <th>时间安排</th>
 <th>难度</th>
 </tr>
@@ -392,14 +440,15 @@ $(document).ready(function () {
 <li>了解Linux的文件系统</li>
 <li>学习基本的文件和目录的操作</li>
 </ol>
+<p><br /></p>
 </div>
 </div>
-<div id="module-2chip-seq-data-analysis" class="section level3">
-<h3>Module 2：ChIP-Seq data analysis</h3>
+<div id="module-3-chip-seq-data-analysis" class="section level3">
+<h3>Module 3: ChIP-Seq data analysis</h3>
 <table>
 <thead>
 <tr class="header">
-<th>学习内容</th>
+<th>学习目标</th>
 <th>时间安排</th>
 <th>难度</th>
 </tr>
@@ -416,33 +465,36 @@ $(document).ready(function () {
 <td>Medium</td>
 </tr>
 <tr class="odd">
-<td>3. 使用UCSC Genome Brower查看测序数据</td>
+<td>3. 使用UCSC Genome Brower可视化测序数据</td>
 <td>2h</td>
 <td>Easy</td>
 </tr>
 </tbody>
 </table>
-<div id="-2" class="section level5">
-<h5>具体内容</h5>
+<div id="-2" class="section level4">
+<h4>具体内容</h4>
 <ol style="list-style-type: decimal">
-<li>查看fastq，sam，narrowPeak，bed，bedgraph等文件类型并了解它们的格式</li>
-<li>使用samtools等软件对上述文件进行过滤操作</li>
-<li>了解ChIP-Seq数据处理的步骤</li>
+<li>查看fastq，sam，narrowPeak，bed，bedgraph等类型的文件和它们的格式</li>
+<li>使用trimmomatic, samtools等软件对上述文件进行过滤操作</li>
+<li>了解ChIP-Seq的实验步骤</li>
+<li>学习处理ChIP-Seq数据</li>
 </ol>
 <ul>
-<li>质控和过滤</li>
+<li>质控和过滤原始数据</li>
 <li>比对到参考基因组</li>
 <li>鉴定蛋白结合位点</li>
 </ul>
-<ol start="4" style="list-style-type: decimal">
+<ol start="5" style="list-style-type: decimal">
 <li>学习使用UCSC Genome Browser的在线资源</li>
 <li>上传ChIP-Seq处理结果至UCSC Genome Browser可视化</li>
+<li>学习ChIP-Seq的下游分析</li>
 </ol>
+<ul>
+<li>Differantial peak calling</li>
+<li>Motif scanning</li>
+<li>Neighboring gene assignment and functional enrichment</li>
+</ul>
 </div>
-</div>
-<div class="section level3">
-<h3>工具使用</h3>
-<p>幻灯片制作：Rstudio + rmarkdown 流程图制作：<a href="https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFxuQVtSYXcgZGF0YV0gLS0-fFFDfCBCW0NsZWFuIGRhdGFdXG5CIC0tPnxNYXBwaW5nfCBDW01hcHBlZCBkYXRhXVxuQyAtLT58UGVhayBjYWxsaW5nfCBEW1BlYWsgc2V0c11cbkMgLS0-fENvdmVyYWdlIGdlbmVyYXRpb258IEVbQ292ZXJhZ2UgZGF0YV1cblxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0" class="uri">https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFxuQVtSYXcgZGF0YV0gLS0-fFFDfCBCW0NsZWFuIGRhdGFdXG5CIC0tPnxNYXBwaW5nfCBDW01hcHBlZCBkYXRhXVxuQyAtLT58UGVhayBjYWxsaW5nfCBEW1BlYWsgc2V0c11cbkMgLS0-fENvdmVyYWdlIGdlbmVyYXRpb258IEVbQ292ZXJhZ2UgZGF0YV1cblxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0</a> 表格制作：<a href="https://www.tablesgenerator.com/markdown_tables" class="uri">https://www.tablesgenerator.com/markdown_tables</a></p>
 </div>
 
 

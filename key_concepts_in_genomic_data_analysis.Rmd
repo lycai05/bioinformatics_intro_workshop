@@ -13,7 +13,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## ChIP-Seq library prepartion protocol
-
+- Uses high-throughput sequencing to infer the positions of any mark associated with DNA
+can be captured by an antibody
 
 ## Minimum ChIP-Seq data processing pipeline
 ```{r, out.width = "800px", echo = F}
